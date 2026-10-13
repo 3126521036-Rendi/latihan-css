@@ -1,0 +1,29 @@
+.body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.produk-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.kartu {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.karru button {
+    padding: 10px 25px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
